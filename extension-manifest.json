@@ -1,0 +1,14 @@
+{
+  "name": "My Web Pixel",
+  "extension_id": "my-web-pixel",
+  "type": "web_pixel",
+  "version": "1.0.0",
+  "settings": {
+    "pixel_id": {
+      "type": "text",
+      "required": true,
+      "label": "Pixel ID",
+      "description": "The tracking pixel identifier provided by your analytics platform"
+    }
+  }
+}

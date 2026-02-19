@@ -1,16 +1,14 @@
 {
   "name": "web-pixel",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "description": "Qumra Web Pixel Extension",
+  "main": "src/index.ts",
+  "scripts": {},
+  "keywords": ["qumra", "web-pixel", "extension"],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "@qumra/web-pixels-extension": "^1.0.2"
+    "@qumra/web-pixels-extension": "^1.0.10"
   }
 }
