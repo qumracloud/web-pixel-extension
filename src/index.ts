@@ -60,8 +60,8 @@ import { register } from "@qumra/web-pixels-extension";
 register(({ api, browser, settings, init }) => {
 
     // ── 1. التحقق من الإعدادات المطلوبة ──────────────────────────
+    // قم باضافة pixelId الى ملف manifest.json
     const pixelId = settings.pixel_id;
-
     if (!pixelId) {
         console.warn("[WebPixel] Pixel ID is missing. Please configure it in the extension settings.");
         return;
